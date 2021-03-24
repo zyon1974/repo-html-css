@@ -1,13 +1,20 @@
 <html lang="it">
   <head>
     <title>prova </title>
+    <style>
+      .box{
+        width: 180px;
+        border: 1px solid #333333;
+        margin: 20px;
+        
+      }
+      .noWrap{
+        white-space: nowrap;
+      }
+    </style>
   </head>
   <body>
-    <h1>file creato da GIT</h1>
-    <p>provo a pullare da GIT</p>
-	<strong>questa modifica arriva dal client</strong>
-	<div>ho spostato la cartella</div>
-	  <div>riprovo</div>
-    <div>questa modifica è stata fatta in intellij e pushata (almeno ci provo)</div>
+	  <div class="box">testo prova parola-con-trattini</div>
+    <div class="box">testo prova <span class="noWrap">parola-con-trattini</span></div>
   </body>
 </html>
