@@ -1,0 +1,90 @@
+.container {
+    min-height: 700px;
+    padding: 10px;
+    background-color: bisque;
+
+    display: flex; /* or inline-flex */
+
+    flex-direction: row; /* row-reverse | column | column-reverse;*/
+    flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */ 
+
+    flex-flow: row wrap;
+
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;
+    align-items: stretch;
+
+    align-content: space-between;
+}
+.item {
+    width: 80px;
+    min-height: 80px;
+    background-color: brown;
+    margin: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.uno {
+    order: 1;
+    height: 120px;
+}
+
+.due {
+    order: 3;
+    height: 170px;
+
+}
+
+.tre {
+    order: 2;
+}
+
+.quattro {
+    order: 4;
+}
+
+.cinque {
+    order: 5;
+}
+
+.sei {
+    order: 6;
+}
+.sette {
+    order: 7;
+    height: 190px;
+
+}
+
+.otto {
+    order: 8;
+}
+
+.nove {
+    order: 9;
+}
+
+.dieci {
+    order: 10;
+}
+.undici {
+    order: 11;
+    height: 190px;
+
+}
+
+.dodici {
+    order: 12;
+}
+
+

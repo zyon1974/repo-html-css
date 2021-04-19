@@ -7,12 +7,11 @@
         width: 180px;
         border: 1px solid #333333;
         margin: 20px;
-        overflow-wrap: normal;
-        
       }
-
-      .pippo{
+      .nowrap{
+        color: red;
         white-space: nowrap;
+        text-overflow: ellipsis;
       }
     </style>
 
@@ -21,5 +20,12 @@
 	  <div class="box">testo prova parola&#8209;con&#8209;trattini</div>
     <div class="box">testo prova parola-con-trattini</div>
     <div class="box">testo prova <span class="pippo">parola-con-trattini</span></div>
+    <div class="box" id="testo">testo prova parola-con-trattini</div>
+    <div class="box nowrap">testo prova parola-con-trattini</div>
   </body>
+
+  <script>
+    const text = document.getElementById("testo");
+    
+  </script>
 </html>
